@@ -5,7 +5,7 @@ This image will install some basic libraries for ruby.
 ## Running
 
 ```
-  $ docker run --name [app] -d xqdocker/ubuntu-for-ruby
+  $ docker run --name [app] -d xqdocker/ubuntu-for-ruby:[version | latest]
 ```
 
 ## License
