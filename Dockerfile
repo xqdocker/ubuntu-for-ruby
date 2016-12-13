@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Xiaoqi Cao <thomascxq@gmail.com>
 
-# Basic dev libraries (for gems)
+# Basic libraries for ruby
 RUN apt-get update && apt-get -y install \
     autoconf \
     bison \
