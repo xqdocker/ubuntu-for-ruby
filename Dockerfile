@@ -8,12 +8,11 @@ RUN apt-get update && apt-get -y install \
     build-essential \
     curl \
     libffi-dev \
-    libgdbm-dev \
     libgdbm3 \
+    libgdbm-dev \
     libmysqlclient-dev \
     libncurses5-dev \
     libreadline-dev \
-    libreadline6-dev \
     libssl-dev \
     libyaml-dev \
     zlib1g-dev \
