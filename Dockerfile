@@ -10,6 +10,7 @@ RUN apt-get update && apt-get -y install \
     libffi-dev \
     libgdbm-dev \
     libgdbm3 \
+    libmysqlclient-dev \
     libncurses5-dev \
     libreadline-dev \
     libreadline6-dev \
