@@ -16,5 +16,4 @@ RUN apt-get update && apt-get -y install \
     libssl-dev \
     libyaml-dev \
     zlib1g-dev \
-    software-properties-common \
-  && rm -rf /var/lib/apt/lists/*
+    software-properties-common
