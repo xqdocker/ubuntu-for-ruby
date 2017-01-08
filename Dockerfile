@@ -17,3 +17,4 @@ RUN apt-get update && apt-get -y install \
     libyaml-dev \
     zlib1g-dev \
     software-properties-common
+&& rm -rf /var/lib/apt/lists/*
